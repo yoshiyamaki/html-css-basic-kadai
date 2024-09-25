@@ -1,0 +1,24 @@
+.decoration {
+ font-size: 20px;
+ color: スカイブルー;
+ color: rgb(255,192,203);
+ .decoration {
+   background-color: red;
+  .decoration {
+    text-shadow: 1px 1px 2px gray;
+    text-align: center;
+    .decoration {
+      letter-spacing: 1.5em;
+      text-decoration: underline;
+      .decoration {
+        color: rgb(255, 0, 0);
+        font-weight: bold;
+        }
+        
+      }
+      
+    }
+    
+  }
+  
+}
