@@ -1,0 +1,14 @@
+body {
+  width: 600px;
+  margin: 0 auto;
+}
+h1 {
+  color: blue;
+  margin: 0;
+}
+.carousel {
+  display: flex;
+}
+.carouselImg {
+  width: 200px;
+}
