@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-visual {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px; /* 好みの幅に調整 */
+}
+
+.phone {
+  position: relative;
+  width: 120px; /* スマホのサイズを調整 */
+  animation: move 3s ease-in-out infinite;
+}
+
+.phone-1 {
+  z-index: 2; /* 前面に表示 */
+  animation-delay: 0s;
+}
+
+.phone-2 {
+  z-index: 1; /* 背面に表示 */
+  animation-delay: 1.5s;
+}
+
+@keyframes move {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .main-visual {
+    max-width: 100%;
+  }
+}
